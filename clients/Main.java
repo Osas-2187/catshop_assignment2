@@ -170,5 +170,24 @@ class Main
     model.addObserver( view );       // Add observer to the model
     window.setVisible(true);         // Make window visible
   }
-
+  
 }
+  
+  /*
+   * This is where i tried to add a background 
+   * music into my the model by making a music class
+   * however, it doesn't work as i was unable to figure out how to properly add it
+   * when i run the application
+   
+    public static void playMusic(String[] musicLocation) {
+	  
+	  String filepath = "retrosound.wav";
+	  music musicObject = new music();
+	  musicObject.playMusic(filepath);
+  
+	  
+	  }
+  }
+  
+   *
+   */
